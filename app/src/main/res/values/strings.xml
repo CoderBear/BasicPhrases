@@ -1,3 +1,19 @@
 <resources>
     <string name="app_name">Basic Phrases</string>
+    <string name="tag1">doyouspeakenglish</string>
+    <string name="tag2">goodevening</string>
+    <string name="button_text2">GOOD EVENING</string>
+    <string name="tag3">hello</string>
+    <string name="tag4">howareyou</string>
+    <string name="tag5">ilivein</string>
+    <string name="button_text3">HELLO</string>
+    <string name="button_text4">HOW ARE YOU?</string>
+    <string name="button_text5">I LIVE IN...</string>
+    <string name="button_text">DO YOU\'\\n\' SPEAK ENGLISH?</string>
+    <string name="button_text6">MY NAME IS...</string>
+    <string name="tag6">mynameis</string>
+    <string name="tag7">please</string>
+    <string name="tag8">welcome</string>
+    <string name="button_text7">PLEASE</string>
+    <string name="button_text8">WELCOME</string>
 </resources>

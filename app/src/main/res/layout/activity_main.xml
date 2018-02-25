@@ -6,13 +6,114 @@
     android:layout_height="match_parent"
     tools:context="com.udemy.sbsapps.basicphrases.MainActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!"
+    <GridLayout
+        android:id="@+id/gridLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:columnCount="2"
+        android:rowCount="4"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:gravity="fill"
+            android:onClick="playPhrase"
+            android:tag="@string/tag1"
+            android:text="DO YOU\nSPEAK ENGLISH"
+            android:textAlignment="center" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:gravity="fill"
+            android:onClick="playPhrase"
+            android:tag="@string/tag2"
+            android:text="@string/button_text2"
+            android:textAlignment="center" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:gravity="fill"
+            android:onClick="playPhrase"
+            android:tag="@string/tag3"
+            android:text="@string/button_text3"
+            android:textAlignment="center" />;
+            android:text="Button"
+            android:textAlignment="center" />
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:gravity="fill"
+            android:onClick="playPhrase"
+            android:tag="@string/tag4"
+            android:text="@string/button_text4"
+            android:textAlignment="center" />
+
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:gravity="fill"
+            android:onClick="playPhrase"
+            android:tag="@string/tag5"
+            android:text="@string/button_text5"
+            android:textAlignment="center" />
+
+        <Button
+            android:id="@+id/button6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:gravity="fill"
+            android:onClick="playPhrase"
+            android:tag="@string/tag6"
+            android:text="@string/button_text6"
+            android:textAlignment="center" />
+
+        <Button
+            android:id="@+id/button7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:gravity="fill"
+            android:onClick="playPhrase"
+            android:tag="@string/tag7"
+            android:text="@string/button_text7"
+            android:textAlignment="center" />
+
+        <Button
+            android:id="@+id/button8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:gravity="fill"
+            android:onClick="playPhrase"
+            android:tag="@string/tag8"
+            android:text="@string/button_text8"
+            android:textAlignment="center" />
+
+    </GridLayout>
 
 </android.support.constraint.ConstraintLayout>
